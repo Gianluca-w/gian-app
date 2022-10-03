@@ -6,7 +6,11 @@ function PostList({ posts }) {
         <div>
             <h1>Lista de posts</h1>
             <div className="post-container">
-                {posts.map((post) => (<Post {...post} key={post.id}></Post>))}
+                {posts.map((post) => (
+                    <div key={post.id}>
+                        <Post {...post}></Post>
+                    </div>
+                ))}
             </div>
         </div>
 
