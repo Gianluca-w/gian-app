@@ -1,12 +1,12 @@
 import Post from "../components/Post";
 
-function PostList({ posts }) {
+function PostList({ props:posts }) {
 
     return (
         <div>
             <h1>Lista de posts</h1>
             <div className="post-container">
-                {posts.map((post) => (<Post {...post}></Post>))}
+                {posts.map((post) => (<Post {...post} key={post.id}></Post>))}
             </div>
         </div>
 
