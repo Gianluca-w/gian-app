@@ -7,7 +7,7 @@ function PostList({ posts }) {
             <h1>Lista de posts</h1>
             <div className="post-container">
                 {posts.map((post) => (
-                    <div key={post.id}>
+                    <div key={post.id} className={"post"}>
                         <Post {...post}></Post>
                     </div>
                 ))}

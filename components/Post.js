@@ -2,7 +2,7 @@ import React from 'react';
 
 const Post = ({title,body}) => (
 
-<div className={"post"}>
+<div>
     <h1>{title}</h1>
     <p>{body}</p>
 </div>
