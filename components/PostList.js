@@ -1,6 +1,6 @@
 import Post from "../components/Post";
 
-function PostList({ props:posts }) {
+function PostList({ posts }) {
 
     return (
         <div>
