@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Post = ({title,body}) => (
+const Post = ({title,body,id}) => (
 
 <div className={"post"}>
     <h1>{title}</h1>

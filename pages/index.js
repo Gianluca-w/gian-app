@@ -5,7 +5,7 @@ export default function Home(props) {
   return (
     <div>
     
-            <PostList posts={props.posts} key={props.posts.userId}/>
+            <PostList posts={props.posts}/>
         
     </div>
   )
